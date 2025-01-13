@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" src="style.css" href="style.css">
+<title>Русская Рулетка</title>
+</head>
+<body>
+    <main>
+        <div class="play">
+            <div class="start">  <p>Русская рулетка<br><br><br>Рекомендуется использовать наушники</p><img src="media/naush.png" width="50px" height="50px"><br><br>
+                <!--
+                 <br>-->
+                  <button id="start" class="btn">Начать игру</button>
+                  <audio id="myAudio2" src="media/sosound.mp3"></audio> <br> <br>
+            </div>
+        </div>
+        <div class="textnone" >
+            <div class="textplay bottomtext">
+                <p class="predislovie">Сумерки, подобные густой синей краске,
+                    сгустились над лесом, когда последний луч солнца скрылся за 
+                    стволами вековых деревьев. Заблудившийся путник, испытывая
+                     острую ломоту в костях и пронзительный холод, набрел на заброшенную избу</p>
+                     <button id="next1" class="btn">Зайти в избу</button> 
+                     <audio id="myAudio3" src="media/sososound.mp3"></audio>
+                    </div>
+                </div>
+                <div class="textnone2" >
+                    <div class="textplay2 bottomtext">
+                        <p class="predislovie"> Ее покосившиеся стены, 
+                            словно иссохшие кости, угрюмо высились среди
+                             зарослей. Запах сырости и гнили смешивался с
+                              еле уловимым ароматом прелой листвы. Внутри,
+                               в полумраке, царила зловещая тишина, нарушаемая
+                                лишь скрипом старых досок под ногами. Отчаяние
+                                 охватило его, когда надежда на спасение таяла
+                                  вместе с последними лучами света.</p>
+                             <button id="next2" class="btn">Ночевать сдесь</button> 
+                            
+                            </div>
+                 
+                        </div>
+                        <div class="textnone3" >
+                            <div class="textplay3 bottomtext">
+                                <p class="predislovie">И вот, когда он уже приготовился провести
+                                    ночь в этом мрачном пристанище, внезапно,
+                                     из темноты за его спиной раздался низкий,
+                                      хриплый голос: "Не оборачивайся. В твоих 
+                                      руках теперь твой шанс выжить". Холодный 
+                                      металл револьвера материализовался в его
+                                       руке. Тяжелая тишина, прерываемая лишь
+                                        учащенным сердцебиением, и ледяное дыхание
+                                         незнакомца за спиной предрекали 
+                                         смертельную игру – русскую рулетку –
+                                          ставшую единственным путем к свободе
+                                           или смерти в этом заброшенном убежище.
+                                        "Четыре пули, либо ты, либо я..." - сказал неизветсный</p>
+                                     <button id="choseShot" class="btn heartbeat">Попытаться убежать</button> 
+                                     
+                                    <button id="chosePlay" class="btn heartbeat">Играть в русскую рулетку</button> 
+                                    <audio id="myAudioReload" src="media/reload.mp3"></audio>    
+                                    <audio id="myAudioShot" src="media/shot.mp3"></audio>  
+                                </div>
+                         
+                                </div>
+        <div class="gamenone" >
+            <div class="gameplay">
+         <p>Всего патронов: <span id="total-bullets">4</span></p>
+         <button id="play"><img src="media/loop2.png">Крутить барабан</button>
+         <audio id="myAudio" src="media/sound.mp3"></audio> <!-- Ваш аудиофайл -->
+         <p id="result"></p>
+        </div>
+        </div>
+        <div class="gooutnone" >
+            <div class="gooutplay">
+        <h1 class="die">вы погибли</h1>
+        </div>
+        </div>
+    </main>
+      <script src="jquery-3.7.1.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
